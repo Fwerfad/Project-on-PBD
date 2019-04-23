@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="ConstructShop@localhost">
+  <database-model serializer="dbm" rdbms="MSSQL" format-version="4.11">
+    <root id="1">
+      <ServerVersion>14.0.100</ServerVersion>
+      <ServerType>standalone</ServerType>
+    </root>
+    <database id="2" parent="1" name="ConstructShop">
+      <ObjectId>6</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+      <Collation>Cyrillic_General_CI_AS</Collation>
+    </database>
+    <database id="3" parent="1" name="Shops">
+      <ObjectId>5</ObjectId>
+    </database>
+    <database id="4" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Collation>Cyrillic_General_CI_AS</Collation>
+    </database>
+    <database id="5" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>Cyrillic_General_CI_AS</Collation>
+    </database>
+    <database id="6" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>Cyrillic_General_CI_AS</Collation>
+    </database>
+    <database id="7" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>Cyrillic_General_CI_AS</Collation>
+    </database>
+    <schema id="8" parent="2" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2018-12-10.17:08:12.450</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="9" parent="2" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="10" parent="2" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="11" parent="2" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <schema id="12" parent="2" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="13" parent="2" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="14" parent="2" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="15" parent="2" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="16" parent="2" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="17" parent="2" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="18" parent="2" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="19" parent="2" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="20" parent="2" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <table id="21" parent="8" name="Batch">
+      <ObjectId>1637580872</ObjectId>
+      <CreatedTimestamp>2018-12-10.17:01:48.293</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.340</ModifiedTimestamp>
+    </table>
+    <table id="22" parent="8" name="BuyOperation">
+      <ObjectId>1381579960</ObjectId>
+      <CreatedTimestamp>2018-12-10.17:01:48.170</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.170</ModifiedTimestamp>
+    </table>
+    <table id="23" parent="8" name="Cheque">
+      <ObjectId>1349579846</ObjectId>
+      <CreatedTimestamp>2018-12-10.17:01:48.143</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.213</ModifiedTimestamp>
+    </table>
+    <table id="24" parent="8" name="ChequeDetails">
+      <ObjectId>1445580188</ObjectId>
+      <CreatedTimestamp>2018-12-10.17:01:48.190</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.190</ModifiedTimestamp>
+    </table>
+    <table id="25" parent="8" name="Customer">
+      <ObjectId>1317579732</ObjectId>
+      <CreatedTimestamp>2018-12-10.17:01:48.130</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.180</ModifiedTimestamp>
+    </table>
+    <table id="26" parent="8" name="Employment">
+      <ObjectId>1573580644</ObjectId>
+      <CreatedTimestamp>2018-12-10.17:01:48.270</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.270</ModifiedTimestamp>
+    </table>
+    <table id="27" parent="8" name="Goods">
+      <ObjectId>1205579333</ObjectId>
+      <CreatedTimestamp>2018-12-10.17:01:48.070</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.310</ModifiedTimestamp>
+    </table>
+    <table id="28" parent="8" name="InternalOperation">
+      <ObjectId>1845581613</ObjectId>
+      <CreatedTimestamp>2018-12-10.17:01:48.347</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.347</ModifiedTimestamp>
+    </table>
+    <table id="29" parent="8" name="Personnel">
+      <ObjectId>1509580416</ObjectId>
+      <CreatedTimestamp>2018-12-10.17:01:48.233</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.283</ModifiedTimestamp>
+    </table>
+    <table id="30" parent="8" name="Producer">
+      <ObjectId>1237579447</ObjectId>
+      <CreatedTimestamp>2018-12-10.17:01:48.097</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.127</ModifiedTimestamp>
+    </table>
+    <table id="31" parent="8" name="Room">
+      <ObjectId>1541580530</ObjectId>
+      <CreatedTimestamp>2018-12-10.17:01:48.253</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.340</ModifiedTimestamp>
+    </table>
+    <table id="32" parent="8" name="Storage">
+      <ObjectId>1701581100</ObjectId>
+      <CreatedTimestamp>2018-12-10.17:01:48.320</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.320</ModifiedTimestamp>
+    </table>
+    <table id="33" parent="8" name="Supply">
+      <ObjectId>1269579561</ObjectId>
+      <CreatedTimestamp>2018-12-10.17:01:48.113</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.317</ModifiedTimestamp>
+    </table>
+    <table id="34" parent="8" name="Transaction">
+      <ObjectId>1765581328</ObjectId>
+      <CreatedTimestamp>2018-12-10.17:01:48.333</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.350</ModifiedTimestamp>
+    </table>
+    <column id="35" parent="21" name="Id">
+      <Position>1</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="36" parent="21" name="Amount">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="37" parent="21" name="Goods_Id">
+      <Position>3</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+    </column>
+    <column id="38" parent="21" name="Supply_Id">
+      <Position>4</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+    </column>
+    <index id="39" parent="21" name="PK__Batch__3214EC0700702D4C">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="40" parent="21" name="PK__Batch__3214EC0700702D4C">
+      <ObjectId>1653580929</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-10.17:01:48.297</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.297</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK__Batch__3214EC0700702D4C</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="41" parent="21" name="FK__Batch__Goods_Id__6383C8BA">
+      <ObjectId>1669580986</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-10.17:01:48.300</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.300</ModifiedTimestamp>
+      <ColNames>Goods_Id</ColNames>
+      <RefTableId>1205579333</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Goods</RefTableName>
+      <RefKeyName>PK__Goods__3214EC0766EEF201</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="42" parent="21" name="FK__Batch__Supply_Id__6477ECF3">
+      <ObjectId>1685581043</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-10.17:01:48.310</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.310</ModifiedTimestamp>
+      <ColNames>Supply_Id</ColNames>
+      <RefTableId>1269579561</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Supply</RefTableName>
+      <RefKeyName>PK__Supply__3214EC07DD54315E</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <column id="43" parent="22" name="Id">
+      <Position>1</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="44" parent="22" name="Customer_Id">
+      <Position>2</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+    </column>
+    <column id="45" parent="22" name="Cheque_Id">
+      <Position>3</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+    </column>
+    <index id="46" parent="22" name="PK__BuyOpera__3214EC074EEE2CBA">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="47" parent="22" name="PK__BuyOpera__3214EC074EEE2CBA">
+      <ObjectId>1397580017</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-10.17:01:48.173</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.173</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK__BuyOpera__3214EC074EEE2CBA</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="48" parent="22" name="FK__BuyOperat__Custo__5441852A">
+      <ObjectId>1413580074</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-10.17:01:48.173</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.173</ModifiedTimestamp>
+      <ColNames>Customer_Id</ColNames>
+      <RefTableId>1317579732</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Customer</RefTableName>
+      <RefKeyName>PK__Customer__3214EC07C09929D0</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="49" parent="22" name="FK__BuyOperat__Chequ__5535A963">
+      <ObjectId>1429580131</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-10.17:01:48.180</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.180</ModifiedTimestamp>
+      <ColNames>Cheque_Id</ColNames>
+      <RefTableId>1349579846</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Cheque</RefTableName>
+      <RefKeyName>PK__Cheque__3214EC074F72EF5F</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <column id="50" parent="23" name="Id">
+      <Position>1</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="51" parent="23" name="Date">
+      <Position>2</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="52" parent="23" name="PK__Cheque__3214EC074F72EF5F">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="53" parent="23" name="PK__Cheque__3214EC074F72EF5F">
+      <ObjectId>1365579903</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-10.17:01:48.157</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.157</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK__Cheque__3214EC074F72EF5F</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="54" parent="24" name="Id">
+      <Position>1</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="55" parent="24" name="Amount">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="56" parent="24" name="Price">
+      <Position>3</Position>
+      <DataType>decimal(18)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="57" parent="24" name="Cheque_Id">
+      <Position>4</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+    </column>
+    <column id="58" parent="24" name="Goods_Id">
+      <Position>5</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+    </column>
+    <index id="59" parent="24" name="PK__ChequeDe__3214EC07572826CC">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="60" parent="24" name="PK__ChequeDe__3214EC07572826CC">
+      <ObjectId>1461580245</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-10.17:01:48.203</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.203</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK__ChequeDe__3214EC07572826CC</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="61" parent="24" name="FK__ChequeDet__Chequ__5812160E">
+      <ObjectId>1477580302</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-10.17:01:48.203</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.203</ModifiedTimestamp>
+      <ColNames>Cheque_Id</ColNames>
+      <RefTableId>1349579846</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Cheque</RefTableName>
+      <RefKeyName>PK__Cheque__3214EC074F72EF5F</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="62" parent="24" name="FK__ChequeDet__Goods__59063A47">
+      <ObjectId>1493580359</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-10.17:01:48.217</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.217</ModifiedTimestamp>
+      <ColNames>Goods_Id</ColNames>
+      <RefTableId>1205579333</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Goods</RefTableName>
+      <RefKeyName>PK__Goods__3214EC0766EEF201</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <column id="63" parent="25" name="Id">
+      <Position>1</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="64" parent="25" name="FullName">
+      <Position>2</Position>
+      <DataType>nvarchar(200 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="65" parent="25" name="Discount">
+      <Position>3</Position>
+      <DataType>decimal(18)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="66" parent="25" name="PK__Customer__3214EC07C09929D0">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="67" parent="25" name="PK__Customer__3214EC07C09929D0">
+      <ObjectId>1333579789</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-10.17:01:48.137</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.137</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK__Customer__3214EC07C09929D0</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="68" parent="26" name="Id">
+      <Position>1</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="69" parent="26" name="Post">
+      <Position>2</Position>
+      <DataType>nvarchar(200 char)|0s</DataType>
+    </column>
+    <column id="70" parent="26" name="EmploymentContractId">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="71" parent="26" name="Personnel_Id">
+      <Position>4</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+    </column>
+    <column id="72" parent="26" name="Room_Id">
+      <Position>5</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+    </column>
+    <index id="73" parent="26" name="PK__Employme__3214EC078C7139FA">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="74" parent="26" name="PK__Employme__3214EC078C7139FA">
+      <ObjectId>1589580701</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-10.17:01:48.280</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.280</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK__Employme__3214EC078C7139FA</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="75" parent="26" name="FK__Employmen__Perso__5FB337D6">
+      <ObjectId>1605580758</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-10.17:01:48.280</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.280</ModifiedTimestamp>
+      <ColNames>Personnel_Id</ColNames>
+      <RefTableId>1509580416</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Personnel</RefTableName>
+      <RefKeyName>PK__Personne__3214EC07087B8462</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="76" parent="26" name="FK__Employmen__Room___60A75C0F">
+      <ObjectId>1621580815</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-10.17:01:48.287</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.287</ModifiedTimestamp>
+      <ColNames>Room_Id</ColNames>
+      <RefTableId>1541580530</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Room</RefTableName>
+      <RefKeyName>PK__Room__3214EC07A7B2BB69</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <column id="77" parent="27" name="Id">
+      <Position>1</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="78" parent="27" name="VendorCode">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="79" parent="27" name="Material">
+      <Position>3</Position>
+      <DataType>nvarchar(200 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="80" parent="27" name="SellPrice">
+      <Position>4</Position>
+      <DataType>decimal(18)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="81" parent="27" name="BuyPrice">
+      <Position>5</Position>
+      <DataType>decimal(18)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="82" parent="27" name="PK__Goods__3214EC0766EEF201">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="83" parent="27" name="PK__Goods__3214EC0766EEF201">
+      <ObjectId>1221579390</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-10.17:01:48.090</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.090</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK__Goods__3214EC0766EEF201</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="84" parent="28" name="Id">
+      <Position>1</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="85" parent="28" name="Transaction_Id">
+      <Position>2</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+    </column>
+    <index id="86" parent="28" name="PK__Internal__3214EC07B0DF5FF1">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="87" parent="28" name="PK__Internal__3214EC07B0DF5FF1">
+      <ObjectId>1861581670</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-10.17:01:48.350</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.350</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK__Internal__3214EC07B0DF5FF1</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="88" parent="28" name="FK__InternalO__Trans__6FE99F9F">
+      <ObjectId>1877581727</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-10.17:01:48.350</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.350</ModifiedTimestamp>
+      <ColNames>Transaction_Id</ColNames>
+      <RefTableId>1765581328</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Transaction</RefTableName>
+      <RefKeyName>PK__Transact__3214EC0792BC4C95</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <column id="89" parent="29" name="Id">
+      <Position>1</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="90" parent="29" name="FullName">
+      <Position>2</Position>
+      <DataType>nvarchar(200 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="91" parent="29" name="Age">
+      <Position>3</Position>
+      <DataType>decimal(18)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="92" parent="29" name="PK__Personne__3214EC07087B8462">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="93" parent="29" name="PK__Personne__3214EC07087B8462">
+      <ObjectId>1525580473</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-10.17:01:48.240</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.240</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK__Personne__3214EC07087B8462</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="94" parent="30" name="Id">
+      <Position>1</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="95" parent="30" name="Type">
+      <Position>2</Position>
+      <DataType>nvarchar(200 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="96" parent="30" name="Address">
+      <Position>3</Position>
+      <DataType>nvarchar(200 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="97" parent="30" name="ContactInformation">
+      <Position>4</Position>
+      <DataType>nvarchar(200 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="98" parent="30" name="PK__Producer__3214EC077B9E62BD">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="99" parent="30" name="PK__Producer__3214EC077B9E62BD">
+      <ObjectId>1253579504</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-10.17:01:48.100</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.100</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK__Producer__3214EC077B9E62BD</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="100" parent="31" name="Id">
+      <Position>1</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="101" parent="31" name="Name">
+      <Position>2</Position>
+      <DataType>nvarchar(200 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="102" parent="31" name="Address">
+      <Position>3</Position>
+      <DataType>nvarchar(200 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="103" parent="31" name="PK__Room__3214EC07A7B2BB69">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="104" parent="31" name="PK__Room__3214EC07A7B2BB69">
+      <ObjectId>1557580587</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-10.17:01:48.257</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.257</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK__Room__3214EC07A7B2BB69</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="105" parent="32" name="Id">
+      <Position>1</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="106" parent="32" name="Room_Id">
+      <Position>2</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+    </column>
+    <column id="107" parent="32" name="Batch_Id">
+      <Position>3</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+    </column>
+    <index id="108" parent="32" name="PK__Storage__3214EC07A942F3A3">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="109" parent="32" name="PK__Storage__3214EC07A942F3A3">
+      <ObjectId>1717581157</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-10.17:01:48.323</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.323</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK__Storage__3214EC07A942F3A3</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="110" parent="32" name="FK__Storage__Room_Id__6754599E">
+      <ObjectId>1733581214</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-10.17:01:48.327</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.327</ModifiedTimestamp>
+      <ColNames>Room_Id</ColNames>
+      <RefTableId>1541580530</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Room</RefTableName>
+      <RefKeyName>PK__Room__3214EC07A7B2BB69</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="111" parent="32" name="FK__Storage__Batch_I__68487DD7">
+      <ObjectId>1749581271</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-10.17:01:48.330</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.330</ModifiedTimestamp>
+      <ColNames>Batch_Id</ColNames>
+      <RefTableId>1637580872</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Batch</RefTableName>
+      <RefKeyName>PK__Batch__3214EC0700702D4C</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <column id="112" parent="33" name="Id">
+      <Position>1</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="113" parent="33" name="Date">
+      <Position>2</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="114" parent="33" name="Producer_Id">
+      <Position>3</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+    </column>
+    <index id="115" parent="33" name="PK__Supply__3214EC07DD54315E">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="116" parent="33" name="PK__Supply__3214EC07DD54315E">
+      <ObjectId>1285579618</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-10.17:01:48.120</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.120</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK__Supply__3214EC07DD54315E</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="117" parent="33" name="FK__Supply__Producer__4D94879B">
+      <ObjectId>1301579675</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-10.17:01:48.120</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.120</ModifiedTimestamp>
+      <ColNames>Producer_Id</ColNames>
+      <RefTableId>1237579447</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Producer</RefTableName>
+      <RefKeyName>PK__Producer__3214EC077B9E62BD</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <column id="118" parent="34" name="Id">
+      <Position>1</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="119" parent="34" name="Date">
+      <Position>2</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="120" parent="34" name="Batch_Id">
+      <Position>3</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+    </column>
+    <column id="121" parent="34" name="Room1_Id">
+      <Position>4</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+    </column>
+    <column id="122" parent="34" name="Room2_Id">
+      <Position>5</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+    </column>
+    <index id="123" parent="34" name="PK__Transact__3214EC0792BC4C95">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="124" parent="34" name="PK__Transact__3214EC0792BC4C95">
+      <ObjectId>1781581385</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-10.17:01:48.337</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.337</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK__Transact__3214EC0792BC4C95</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="125" parent="34" name="FK__Transacti__Batch__6B24EA82">
+      <ObjectId>1797581442</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-10.17:01:48.337</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.337</ModifiedTimestamp>
+      <ColNames>Batch_Id</ColNames>
+      <RefTableId>1637580872</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Batch</RefTableName>
+      <RefKeyName>PK__Batch__3214EC0700702D4C</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="126" parent="34" name="FK__Transacti__Room1__6C190EBB">
+      <ObjectId>1813581499</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-10.17:01:48.340</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.340</ModifiedTimestamp>
+      <ColNames>Room1_Id</ColNames>
+      <RefTableId>1541580530</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Room</RefTableName>
+      <RefKeyName>PK__Room__3214EC07A7B2BB69</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="127" parent="34" name="FK__Transacti__Room2__6D0D32F4">
+      <ObjectId>1829581556</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-12-10.17:01:48.340</CreatedTimestamp>
+      <ModifiedTimestamp>2018-12-10.17:01:48.340</ModifiedTimestamp>
+      <ColNames>Room2_Id</ColNames>
+      <RefTableId>1541580530</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Room</RefTableName>
+      <RefKeyName>PK__Room__3214EC07A7B2BB69</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>
